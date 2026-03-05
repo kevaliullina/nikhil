@@ -13,7 +13,8 @@ prompt = { path = "../../../mnt/c/Users/valiu/Downloads/prompt-0.4.1-py3-none-an
 [project.scripts]
 VD-games = "VD_games.scripts.VD_main:main"
 VD-even = "VD_games.scripts.VD_even:main"
-
+VD-calc = "VD_games.scripts.VD_calc:main"
+VD-gcd = "VD_games.scripts.VD_gcd:main"
 [dependency-groups]
 dev = [
     "ruff>=0.15.2",
